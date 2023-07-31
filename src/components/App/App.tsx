@@ -16,7 +16,7 @@ const App = (): React.ReactElement => {
     },
   ];
 
-  const [questions, setQuestions] = useState(initialQuestions);
+  const [questions] = useState(initialQuestions);
 
   return (
     <div className="container">
