@@ -1,4 +1,5 @@
 import { QuestionStructure } from "../../types";
+import "./Question.css";
 
 interface QuestionProps {
   question: QuestionStructure;
